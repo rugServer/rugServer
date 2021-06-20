@@ -151,19 +151,47 @@ hr.new1 {
     z-index: 2;
 }
 
+
+.gmaps-mobile {
+    display:none;
+ 
+}
+
+
+
 @media only screen and (max-width: 900px) {
 
+    .gmaps-desktop {
+        display:none;
+    }
+
+    .gmaps-mobile {
+        display:inline;
+     
+    }
+    
+    
+
     .main-description .big {
-        font-size: 156px;
+        font-size: 66px;
         font-family: 'Brown-Bold';
         line-height: 0.9em;
         margin:0px;
         text-align: center
     }  
 
+    .main-description .big2 {
+        font-size: 36px;
+        font-family: 'Brown-bold';
+        line-height: 0.9em;
+        text-align: left;
+        margin:0px;
+    } 
+
     .background-header {
-        width: 90%;
+        width: 80%;
         z-index: 2;
+        padding-bottom:30px;
     }
 
     .main-description-container {
