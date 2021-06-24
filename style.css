@@ -12,20 +12,32 @@ body{
     height:100%;
 }
 
-@font-face {font-family: 'Brown-Bold'; src: url("http://adhocmilano.it/src/Brown-Bold.otf"); src: url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff") format("woff"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.svg#Brown Bold") format("svg"); }
-@font-face {font-family: 'Brown-Light'; src: url("http://adhocmilano.it/src/Brown-Light.otf"); src: url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff") format("woff"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.svg#Brown Bold") format("svg"); }
-@font-face {font-family: 'Brown-Regular'; src: url("http://adhocmilano.it/src/Brown-Regular.otf"); src: url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff") format("woff"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.svg#Brown Bold") format("svg"); }
+@font-face {font-family: 'Brown-Bold'; src: url("https://github.com/rugServer/rugServer/tree/main/src/Brown-Bold.otf"); src: url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff") format("woff"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.svg#Brown Bold") format("svg"); }
+@font-face {font-family: 'Brown-Light'; src: url("https://github.com/rugServer/rugServer/tree/main/src/Brown-Light.otf"); src: url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff") format("woff"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.svg#Brown Bold") format("svg"); }
+@font-face {font-family: 'Brown-Regular'; src: url("https://github.com/rugServer/rugServer/tree/main/src/Brown-Regular.otf"); src: url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff") format("woff"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.svg#Brown Bold") format("svg"); }
+@font-face {font-family: 'GoodDogNew'; src: url("https://raw.githubusercontent.com/rugServer/rugServer/main/src/GoodDog.otf") format("embedded-opentype"), url("https://raw.githubusercontent.com/rugServer/rugServer/main/src/GoodDog.woff") format("woff"), url("https://raw.githubusercontent.com/rugServer/rugServer/main/src/GoodDog.ttf") format("truetype"); }
 
 body {
   min-height: 100%;
-  font-family: 'Brown-Bold';
+  font-family: 'GoodDogNew';
   color: #e1575c;
-  background: #e5f0f0;
+  background: #fcf3d3;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.goo {
+    font-family: 'GoodDogNew';
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+
+h1 {
+   font-family: 'GoodDogNew';
+   line-height: 1em;
+}
 
 
 
@@ -78,7 +90,7 @@ body {
 .main-description {
     justify-content: center;
     font-size: 20px;
-    font-family: 'Brown-Regular';
+    font-family: 'GoodDogNew';
     line-height: 1.4em;
     text-align: left;
 }   
@@ -89,7 +101,7 @@ hr.new1 {
 
 .main-description .big {
     font-size: 100px;
-    font-family: 'Brown-Bold';
+    font-family: 'GoodDogNew';
     line-height: 0.9em;
     margin:0px;
     text-align: center
@@ -97,7 +109,7 @@ hr.new1 {
 
 .main-description .big2 {
     font-size: 48px;
-    font-family: 'Brown-bold';
+    font-family: 'GoodDogNew';
     line-height: 0.9em;
     text-align: left;
     margin:0px;
@@ -105,7 +117,7 @@ hr.new1 {
 
 .main-description .big3 {
     font-size: 24px;
-    font-family: 'Brown-Bold';
+    font-family: 'GoodDogNew';
     line-height: 0.9em;
     text-align: left;
 } 
@@ -173,8 +185,9 @@ hr.new1 {
     
 
     .main-description .big {
+        padding-top:90px;
         font-size: 66px;
-        font-family: 'Brown-Bold';
+        font-family: 'GoodDogNew';
         line-height: 0.9em;
         margin:0px;
         text-align: center
@@ -182,7 +195,7 @@ hr.new1 {
 
     .main-description .big2 {
         font-size: 36px;
-        font-family: 'Brown-bold';
+        font-family: 'GoodDogNew';
         line-height: 0.9em;
         text-align: left;
         margin:0px;
@@ -230,7 +243,7 @@ hr.new1 {
     width: 24vw;
     position: absolute;
     left: 40px;
-    bottom: 22vw;
+    bottom: 14vw;
     font-size: 16px;
     line-height: 1.2em;
     color: #e1575c;
@@ -409,8 +422,7 @@ a:hover:after {
         width: 90vw;
         position: absolute;
         left: 20px;
-        bottom: 22vw;
-        padding-top:200px;
+        bottom: -50px;
         font-size: 16px;
         line-height: 1.2em;
         color: #e1575c;
